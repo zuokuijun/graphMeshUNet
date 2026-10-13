@@ -80,7 +80,9 @@ Drag to rotate and scroll or pinch to zoom.
 
 [![Golf ball geometry preview](./images/Titlelist_PROV1.gif)](https://zuokuijun.github.io/graphMeshUNet/)
 
-[Open interactive viewer](https://zuokuijun.github.io/graphMeshUNet/) · [Download STL](./docs/assets/golf_ball.binary.stl)
+[Open interactive viewer](https://zuokuijun.github.io/graphMeshUNet/) · [Download STL (ZIP)](https://zuokuijun.github.io/graphMeshUNet/assets/Golf_ball.stl.zip)
 
 Default interactive model: **Golf_ball**. The viewer loads its binary STL copy; the GIF remains a separate animation preview.
+
+
 
