@@ -15,6 +15,6 @@ document.querySelector('#file').onchange=async e=>{const f=e.target.files[0];if(
 document.querySelector('#reset').onclick=reset;document.querySelector('#spin').onclick=e=>{controls.autoRotate=!controls.autoRotate;e.target.textContent=controls.autoRotate?'Stop rotation':'Auto-rotate';};
 new ResizeObserver(()=>{renderer.setSize(host.clientWidth,host.clientHeight);camera.aspect=host.clientWidth/host.clientHeight;camera.updateProjectionMatrix();}).observe(host);
 renderer.setAnimationLoop(()=>{controls.update();renderer.render(scene,camera);});
-status.textContent='Downloading default model…';try{const response=await fetch('assets/golf_ball.binary.stl');if(!response.ok)throw Error('HTTP '+response.status+' while downloading model');show(loader.parse(await response.arrayBuffer()),'golf_ball.stl');}catch(err){status.textContent='Default model could not load: '+err.message+'. You can also select a local STL.';}
+status.textContent='Downloading default model…';status.textContent='Downloading default model…';try{const response=await fetch('assets/golf_ball.binary.stl');if(!response.ok)throw Error('HTTP '+response.status+' while downloading model');show(loader.parse(await response.arrayBuffer()),'golf_ball.stl');}catch(err){status.textContent='Default model could not load: '+err.message+'. You can also select a local STL.';}
 }catch(err){status.textContent='Viewer unavailable. Check internet access and WebGL support. '+err.message;}
 </script></html>
