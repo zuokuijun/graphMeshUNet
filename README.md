@@ -78,12 +78,8 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](./LICEN
 Click the preview below to open the interactive 3D viewer.
 Drag to rotate and scroll or pinch to zoom.
 
-[![Golf ball geometry preview](./images/Titlelist_PROV1.gif)](https://zuokuijun.github.io/graphMeshUNet/)
+[![Golf ball geometry preview](./images/Titlelist_PROV1.gif)](https://zuokuijun.github.io/graphMeshUNet/?v=binary-v2)
 
-[Open interactive viewer](https://zuokuijun.github.io/graphMeshUNet/) · [Download STL (ZIP)](https://raw.githubusercontent.com/zuokuijun/graphMeshUNet/main/docs/assets/Golf_ball.stl.zip)
+[Open interactive viewer](https://zuokuijun.github.io/graphMeshUNet/?v=binary-v2) · [Download STL (ZIP)](https://raw.githubusercontent.com/zuokuijun/graphMeshUNet/main/docs/assets/Golf_ball.stl.zip)
 
 Default interactive model: **Golf_ball**. The viewer loads its binary STL copy; the GIF remains a separate animation preview.
-
-
-
-
