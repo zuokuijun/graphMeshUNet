@@ -73,8 +73,11 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](./LICEN
   <em>Figure 6. GraphMeshUNet generation results on the two test sets: (a) GolfAero-Synth and (b) GolfAero-Real, covering different commercial golf balls.</em>
 </p>
 
-## Interactive View of the Generated Geometry
+## Interactive 3D Visualization
 
-<p align="center">
-  <img src="./images/Titlelist_PROV1.gif">
-</p>
+Click the preview below to open the interactive 3D viewer.
+Drag to rotate and scroll or pinch to zoom.
+
+[![Golf ball geometry preview](./images/Titlelist_PROV1.gif)](https://zuokuijun.github.io/graphMeshUNet/)
+
+[Open interactive viewer](https://zuokuijun.github.io/graphMeshUNet/) · [Download STL](./docs/assets/golf_ball.stl)
